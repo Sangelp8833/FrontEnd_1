@@ -1,0 +1,105 @@
+
+.perfil{
+    display: flex;
+    background-color: #E6E6E6;
+    justify-content: center;
+    height: 148px; 
+    background-image: url('../img/back_image.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+section{
+    margin-top: 8% ;
+    margin-bottom: 7%;
+}
+
+.head{
+    
+    justify-content: center;
+    background-color: #C4C4C4;
+    align-items: center;
+    
+    
+}
+
+.titulo{
+    display: flex;
+    color: #005677;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    letter-spacing: 11.5px;
+    margin: auto;
+}
+
+.datos{
+    display: flex;
+    background-color: #C4C4C4;
+    color: #005677;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family:  'Times New Roman' ;
+}
+
+.lista{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    font-style: italic;
+    
+}
+
+.subtitle{
+    margin: 2px;
+    padding-left: 12px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #005677;
+    color: #FFFFFF;
+}
+
+.año{
+    display: flex;
+
+}
+
+.año-num{
+    font-weight: bold;
+}
+
+button{
+    height: 50px;
+    background-color: #005677;
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+    
+}
+
+.fa-instagram{
+    font-size: 25px;
+    color: white;
+}
+
+.fa-linkedin{
+    font-size: 25px;
+    color: white;
+}
+
+.fa-github{
+    font-size: 25px;
+    color: white;
+}
