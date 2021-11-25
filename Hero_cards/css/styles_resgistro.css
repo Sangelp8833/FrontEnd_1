@@ -65,34 +65,36 @@ section{
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 5rem;
+    flex-direction: column;
+    align-items: center ;
 }
 
-.card{
+.datos_login{
     display: flex;
-    width:  300px;
-    height: 33rem;
+    width:  60vw;
+    height: 30rem;
     margin: 2rem;
     border-radius: 2rem 2rem 0rem 0rem;
-    background-color: #F3F3F3;
-    box-shadow: 0rem 0.5rem 0.2rem rgba(0, 0, 0, 0.25);
     flex-direction: column;
     position: relative;
 }
 
-.fondo{
-    background-color: brown;
-    width: 300px;
-    height: 12rem;
-    border-radius: 2rem 2rem 0rem 0rem;
-}
-
-.info{
+.user_password{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
-    height: 21rem;
+    justify-content: space-around;
+    height: 15rem;
+}
 
+::placeholder{
+    color: black;
+    padding-left: 2rem;
+
+}
+
+input{
+    width: 60vw;
+    height: 8vh;
 }
 
 .name-item{
@@ -104,37 +106,7 @@ section{
     margin: 1.8rem;
 }
 
-#fondo_1, #fondo_3{
-    background-image: url(../img/fondo-batman.png);
-    background-position: center;
-    background-size: cover;
-}
 
-#fondo_2{
-    background-image: url(../img/Harley.png);
-    background-position: center;
-    background-size: cover;
-}
-
-
-.profile_photo{
-    position: absolute;
-    height: 20vh;
-    width: 20vh;
-    border-radius: 50%;
-    background-color: #1CD1B0;
-    z-index: 1;
-    left: 5.5rem;
-    top: 8rem;
-}
-
-#profile_1, #profile_3{
-    background-image: url(../img/Perfil-batman.png);
-}
-
-#profile_2{
-    background-image: url(../img/perfil-harley.png);
-}
 
 footer{
     display: flex;
@@ -158,4 +130,58 @@ p.footer{
     color: #001D2D;
     font-size: 4rem;
     font-family: 'Roboto';
+    display: flex;
+    width: 60vw;
 }
+
+.opciones{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.5rem;
+}
+
+.entrar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    border-radius: 3em;
+    font-weight: bold;
+    margin: 2rem 0rem 0rem 0rem;
+    width: 45%;
+    justify-items: center;
+    
+    
+}
+
+
+#Resetear{
+    text-decoration: none;
+    color: white;
+    background-color: #888888;
+    
+}
+
+#Registrar{
+    text-decoration: none;
+    color: black;
+    background-color: #1CD1B0;
+    ;
+    
+}
+
+
+#registro{
+    text-decoration: none;
+}
+
+.registro{
+    text-align: center;
+}
+
+#selec_paises{
+    height: 8vh;
+    padding-left: 2rem;
+}
+
